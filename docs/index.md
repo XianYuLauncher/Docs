@@ -44,7 +44,7 @@ features:
 </style>
 
 <script setup>
-import { VPTeamMembers } from 'vitepress/theme'
+import VPTeamMembers from './.vitepress/theme/components/VPTeamMembers.vue'
 
 const members = [
   {
