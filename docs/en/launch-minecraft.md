@@ -1,3 +1,7 @@
+---
+description: Step-by-step guide to launching Minecraft via XianYuLauncher. Covers selecting game versions, managing accounts, configuring launch options, and setting up your first singleplayer or multiplayer session.
+---
+
 # Launch Minecraft
 
 ## Select Game Version

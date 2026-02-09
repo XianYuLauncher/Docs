@@ -1,3 +1,7 @@
+---
+description: Detailed settings guide for XianYuLauncher. Customize your launcher experience by adjusting themes, language preferences, Java runtime paths, memory allocation, and advanced launch parameters.
+---
+
 # Launcher Settings
 
 ## Open Settings

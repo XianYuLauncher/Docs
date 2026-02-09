@@ -1,3 +1,7 @@
+---
+description: Guide to downloading and installing Minecraft in XianYuLauncher. Learn how to install official releases, snapshots, and mod loaders like Forge and Fabric to set up your ideal gaming environment.
+---
+
 # Download and Install Minecraft
 
 ## Download Minecraft Version

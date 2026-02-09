@@ -1,3 +1,7 @@
+---
+description: XianYuLauncher 模组 (Mod) 管理指南。学习如何安装 Forge/Fabric 加载器，在启动器内直接搜索、下载和安装热门 Mod，以及自动处理模组依赖关系。
+---
+
 # Mod管理
 
 ## 安装加载器

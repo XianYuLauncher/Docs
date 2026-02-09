@@ -1,3 +1,7 @@
+---
+description: 在 XianYuLauncher 中启动 Minecraft 游戏的完整流程。包括选择游戏版本、添加游戏账户、配置启动选项以及首次进入游戏的设置指南，确保您顺利开始游戏。
+---
+
 # 启动 Minecraft
 
 ## 选择游戏版本

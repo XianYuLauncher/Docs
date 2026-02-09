@@ -1,3 +1,7 @@
+---
+description: Frequently Asked Questions (FAQ) for XianYuLauncher. Find troubleshooting tips and solutions for common issues like launcher crashes, startup failures, game black screens, and multiplayer connection problems.
+---
+
 # FAQ
 
 ## Launcher Issues

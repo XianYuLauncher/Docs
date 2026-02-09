@@ -1,3 +1,7 @@
+---
+description: 如何在 XianYuLauncher 中下载和安装 Minecraft 游戏。本指南详细介绍了下载正式版、快照版以及安装 Forge、Fabric 等 Mod 加载器的步骤，助您快速配置游戏环境。
+---
+
 # 下载和安装 Minecraft
 
 ## 下载 Minecraft 版本
