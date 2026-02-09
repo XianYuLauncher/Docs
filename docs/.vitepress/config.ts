@@ -94,7 +94,7 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/logo.png',
+    logo: { src: '/logo.png', alt: 'XianYuLauncher Logo' },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/XianYuLauncher/XianYuLauncher' }
     ],
