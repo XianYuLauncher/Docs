@@ -1,3 +1,7 @@
+---
+description: Master mod management in XianYuLauncher. Discover how to install loaders (Forge, Fabric), browse and download mods from the built-in store, automatically handle dependencies, and easily enable or disable mods for your game versions.
+---
+
 # Mod Management
 
 ## Install Loader

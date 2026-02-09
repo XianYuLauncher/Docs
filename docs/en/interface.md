@@ -1,3 +1,7 @@
+---
+description: Comprehensive overview of the XianYuLauncher interface. Explore the modern, user-friendly layout including the navigation bar, game version list, resource download center, and account management tools to maximize your launcher experience.
+---
+
 # Launcher Interface Introduction
 
 ## Main Interface Layout

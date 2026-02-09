@@ -1,3 +1,7 @@
+---
+description: Learn how to play Minecraft with friends using XianYuLauncher. This guide covers joining multiplayer servers via direct connection or server list, starting LAN worlds, and using the built-in Terracotta online service for stable connectivity.
+---
+
 # Multiplayer
 
 ## Join Servers

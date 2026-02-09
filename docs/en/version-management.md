@@ -1,3 +1,7 @@
+---
+description: Complete guide to managing Minecraft versions in XianYuLauncher. Learn how to view your installed instances, customize game settings like memory allocation and Java paths, manage mods and add-ons, and remove unused versions efficiently.
+---
+
 # Game Version Management
 
 ## View Version List

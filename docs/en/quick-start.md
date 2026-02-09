@@ -1,3 +1,7 @@
+---
+description: Get started with XianYuLauncher quickly. This step-by-step guide walks you through downloading, installing, and launching the application for the first time. Set up your Minecraft environment effortlessly and start playing in minutes.
+---
+
 # Quick Start
 
 ## Download the Launcher
