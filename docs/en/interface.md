@@ -10,7 +10,7 @@ XianYuLauncher's main interface adopts a modern design with a clear and user-fri
 
 ### 1. Navigation Bar
 
-![Navigation Bar](/img/LaunchPage.png)
+![Navigation Bar](../public/img/LaunchPage.png)
 
 ### 2. Game Version List
 
