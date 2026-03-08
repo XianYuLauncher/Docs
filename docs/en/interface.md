@@ -10,11 +10,11 @@ XianYuLauncher's main interface adopts a modern design with a clear and user-fri
 
 ### 1. Navigation Bar
 
-![Navigation Bar](../public/img/LaunchPage.png)
+![Navigation Bar](/img/LaunchPage.png)
 
 ### 2. Game Version List
 
-![Game Version List](../public/img/VersionListPage.png)
+![Game Version List](/img/VersionListPage.png)
 
 - Display all installed Minecraft versions
 - Can select different game versions
@@ -22,14 +22,14 @@ XianYuLauncher's main interface adopts a modern design with a clear and user-fri
 
 ### 3. Resource Download
 
-![Resource Download Page](../public/img/ResourceDownloadPage.png)
+![Resource Download Page](/img/ResourceDownloadPage.png)
 
 - Download new game versions
 - Download game mods, resource packs, modpacks, shaders, etc.
 
 ### 4. Multiplayer
 
-![Multiplayer Page](../public/img/MultiPlayerPage.png)
+![Multiplayer Page](/img/MultiPlayerPage.png)
 
 - Play online with other players
 
