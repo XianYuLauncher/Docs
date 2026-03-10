@@ -4,34 +4,21 @@ description: Comprehensive overview of the XianYuLauncher interface. Explore the
 
 # Launcher Interface Introduction
 
-## Main Interface Layout
+XianYuLauncher is built on WinUI 3 with a clean, modern interface. The left sidebar provides navigation; click different icons to switch between features. The main content area is on the right.
 
-XianYuLauncher's main interface adopts a modern design with a clear and user-friendly layout, mainly including the following areas:
+![XianYuLauncher Interface Overview](/img/ReadmeHero_en.png)
 
-### 1. Navigation Bar
+## Feature Areas
 
-![Navigation Bar](/img/LaunchPage.png)
+**Launch**: Select a game version, configure Mods, and click "Launch Game" to start Minecraft.
 
-### 2. Game Version List
+**Download**: Download the game, Mods, resource packs, shaders, modpacks, and more. Supports Forge / Fabric / Neoforge / Quilt loaders.
 
-![Game Version List](/img/VersionListPage.png)
+**Version List**: View and manage installed versions. Supports search, filter, and modpack import/export.
 
-- Display all installed Minecraft versions
-- Can select different game versions
-- Display basic version information
+**Character**: Manage Minecraft accounts and characters. Includes 3D skin preview.
 
-### 3. Resource Download
-
-![Resource Download Page](/img/ResourceDownloadPage.png)
-
-- Download new game versions
-- Download game mods, resource packs, modpacks, shaders, etc.
-
-### 4. Multiplayer
-
-![Multiplayer Page](/img/MultiPlayerPage.png)
-
-- Play online with other players
+**Multiplayer**: Powered by Terracotta. Create or join rooms to play with friends.
 
 ## Next Steps
 

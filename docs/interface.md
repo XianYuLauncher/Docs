@@ -4,34 +4,21 @@ description: 详解 XianYuLauncher 的用户界面布局。从导航栏到游戏
 
 # 启动器界面介绍
 
-## 主界面布局
+XianYuLauncher 基于 WinUI 3 打造，界面简洁现代。左侧为导航栏，点击不同图标即可切换功能；右侧为主内容区。
 
-XianYuLauncher 的主界面采用了现代化的设计，布局清晰易用，主要包括以下几个区域：
+![XianYuLauncher 界面一览](/img/ReadmeHero_zh.png)
 
-### 1. 导航栏
+## 功能区域
 
-![导航栏](/img/LaunchPage.png)
+**启动**：选择游戏版本、配置 Mod，点击「启动游戏」进入 Minecraft。
 
-### 2. 游戏版本列表
+**下载**：下载游戏本体、Mod、资源包、光影、整合包等，支持 Forge / Fabric / Neoforge / Quilt 等加载器。
 
-![游戏版本列表](/img/VersionListPage.png)
+**版本列表**：查看与管理已安装的版本，支持搜索、筛选、导入导出整合包。
 
-- 显示所有已安装的 Minecraft 版本
-- 可以选择不同的游戏版本
-- 显示版本的基本信息
+**角色**：管理 Minecraft 账号与角色，支持 3D 皮肤预览。
 
-### 3. 资源下载
-
-![资源下载页](/img/ResourceDownloadPage.png)
-
-- 下载新的游戏版本
-- 下载游戏 Mod、资源包、整合包、光影等模组
-
-### 4. 多人联机
-
-![多人联机页](/img/MultiPlayerPage.png)
-
-- 与其他玩家联机游戏
+**联机**：由陶瓦联机服务支持，创建或加入房间与朋友一起游戏。
 
 ## 下一步
 
