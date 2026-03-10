@@ -48,19 +48,19 @@ import VPTeamMembers from './.vitepress/theme/components/VPTeamMembers.vue'
 
 const members = [
   {
-    avatar: '/logo.png',
+    avatar: '/img/N123999.png',
     name: 'XianYu',
     title: '开发者',
-    desc: 'XianYuLauncher 创始人，负责启动器的设计和开发',
+    desc: '负责启动器的设计和开发',
     links: [
       { icon: 'github', link: 'https://github.com/N123999' }
     ]
   },
   {
-    avatar: '/logo.png',
-    name: '反馈群的成员们',
-    title: '成员',
-    desc: 'XianYuLauncher 反馈群的成员，给我提供了很多灵感和建议'
+    avatar: '/img/dots.svg',
+    name: '其它贡献者',
+    title: '贡献者',
+    desc: '感谢所有为 XianYuLauncher 提供建议和帮助的社区成员'
   }
 ]
 </script>

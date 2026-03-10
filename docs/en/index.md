@@ -48,19 +48,19 @@ import VPTeamMembers from '../.vitepress/theme/components/VPTeamMembers.vue'
 
 const members = [
   {
-    avatar: '/logo.png',
+    avatar: '/img/N123999.png',
     name: 'XianYu',
     title: 'Developer',
-    desc: 'Founder of XianYuLauncher, responsible for the design and development of the launcher',
+    desc: 'Responsible for the design and development of the launcher',
     links: [
       { icon: 'github', link: 'https://github.com/N123999' }
     ]
   },
   {
-    avatar: '/logo.png',
-    name: 'Feedback Group Members',
-    title: 'Members',
-    desc: 'XianYuLauncher Feedback Group Members, who provided me with many valuable insights and suggestions'
+    avatar: '/img/dots.svg',
+    name: 'Other Contributors',
+    title: 'Contributors',
+    desc: 'Thanks to all community members who have provided suggestions and support for XianYuLauncher'
   }
 ]
 </script>
