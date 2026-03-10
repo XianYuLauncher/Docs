@@ -1,4 +1,8 @@
 :root {
+  /* 字体：Inter 负责英文，Noto Sans SC 负责中文，避免微软雅黑 */
+  --vp-font-family-base: "Inter", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --vp-font-family-mono: "JetBrains Mono", "Fira Code", ui-monospace, monospace;
+
   /* 标题渐变色 */
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: linear-gradient(

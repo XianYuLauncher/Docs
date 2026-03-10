@@ -2,6 +2,14 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  head: [
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', {
+      rel: 'stylesheet',
+      href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap'
+    }]
+  ],
   locales: {
     root: {
       label: '中文',
@@ -54,6 +62,10 @@ export default defineConfig({
       description: "XianYuLauncher - Docs",
       link: '/en/',
       themeConfig: {
+        editLink: {
+          pattern: 'https://github.com/XianYuLauncher/XianYuLauncher-Docs/edit/main/docs/:path',
+          text: 'Edit this page on GitHub'
+        },
         nav: [
           { text: 'Home', link: '/en/' },
           { text: 'Quick Start', link: '/en/quick-start.md' }
@@ -95,6 +107,10 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: { src: '/logo.png', alt: 'XianYuLauncher Logo' },
+    editLink: {
+      pattern: 'https://github.com/XianYuLauncher/XianYuLauncher-Docs/edit/main/docs/:path',
+      text: '在 GitHub 上编辑此页面'
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/XianYuLauncher/XianYuLauncher' }
     ],
