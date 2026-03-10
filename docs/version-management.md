@@ -1,5 +1,5 @@
 ---
-description: 全面的 Minecraft 游戏版本管理指南。学习如何在 XianYuLauncher 中查看已安装版本、编辑游戏设置（如内存分配、Java 路径）、管理 Mod 和组件，以及删除不再需要的游戏版本。
+description: 全面的 Minecraft 游戏版本管理指南。学习如何在 XianYuLauncher 中查看已安装版本、编辑游戏设置（如内存分配、Java 路径）、管理 Mod 与模组，以及删除不再需要的游戏版本。
 ---
 
 # 游戏版本管理
@@ -23,7 +23,7 @@ description: 全面的 Minecraft 游戏版本管理指南。学习如何在 Xian
 2. 在版本管理页，点击 "删除" 按钮
 3. 在确认对话框中，点击 "确定" 按钮
 4. 该版本会从列表中删除
-5. 注意：删除版本会删除所有相关文件，包括存档和模组
+5. 注意：删除版本会删除所有相关文件，包括存档和 Mod
 
 ## 导入/导出整合包
 
@@ -45,6 +45,6 @@ description: 全面的 Minecraft 游戏版本管理指南。学习如何在 Xian
 
 ## 下一步
 
-- [模组管理](./mod-management.md)
+- [Mod 管理](./mod-management.md)
 - [多人游戏](./multiplayer.md)
 - [启动器设置](./settings.md)

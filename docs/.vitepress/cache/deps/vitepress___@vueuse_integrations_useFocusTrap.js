@@ -3,13 +3,13 @@ import {
   toArray,
   tryOnScopeDispose,
   unrefElement
-} from "./chunk-2762AXES.js";
+} from "./chunk-XETKJZD7.js";
 import {
   computed,
   shallowRef,
   toValue,
   watch
-} from "./chunk-ADVWCYKY.js";
+} from "./chunk-IKY3COGX.js";
 
 // node_modules/tabbable/dist/index.esm.js
 var candidateSelectors = ["input:not([inert]):not([inert] *)", "select:not([inert]):not([inert] *)", "textarea:not([inert]):not([inert] *)", "a[href]:not([inert]):not([inert] *)", "button:not([inert]):not([inert] *)", "[tabindex]:not(slot):not([inert]):not([inert] *)", "audio[controls]:not([inert]):not([inert] *)", "video[controls]:not([inert]):not([inert] *)", '[contenteditable]:not([contenteditable="false"]):not([inert]):not([inert] *)', "details>summary:first-of-type:not([inert]):not([inert] *)", "details:not([inert]):not([inert] *)"];
@@ -588,9 +588,9 @@ var createFocusTrap = function createFocusTrap2(elements, userOptions) {
     // references to nodes that are siblings to the ancestors of this trap's containers.
     /** @type {Set<HTMLElement>} */
     adjacentElements: /* @__PURE__ */ new Set(),
-    // references to nodes that were inert before the trap was activated.
+    // references to nodes that were inert or aria-hidden before the trap was activated.
     /** @type {Set<HTMLElement>} */
-    alreadyInert: /* @__PURE__ */ new Set(),
+    alreadySilent: /* @__PURE__ */ new Set(),
     nodeFocusedBeforeActivation: null,
     mostRecentlyFocusedNode: null,
     active: false,
@@ -985,7 +985,7 @@ var createFocusTrap = function createFocusTrap2(elements, userOptions) {
       trap._setSubtreeIsolation(false);
     }
     state.adjacentElements.clear();
-    state.alreadyInert.clear();
+    state.alreadySilent.clear();
     var containerAncestors = /* @__PURE__ */ new Set();
     var adjacentElements = /* @__PURE__ */ new Set();
     var _iterator = _createForOfIteratorHelper(containers), _step;
@@ -1085,7 +1085,8 @@ var createFocusTrap = function createFocusTrap2(elements, userOptions) {
       var preexistingTrap = activeFocusTraps.getActiveTrap(trapStack);
       var revertState = false;
       if (preexistingTrap && !preexistingTrap.paused) {
-        preexistingTrap._setSubtreeIsolation(false);
+        var _preexistingTrap$_set;
+        (_preexistingTrap$_set = preexistingTrap._setSubtreeIsolation) === null || _preexistingTrap$_set === void 0 || _preexistingTrap$_set.call(preexistingTrap, false);
         revertState = true;
       }
       try {
@@ -1114,7 +1115,8 @@ var createFocusTrap = function createFocusTrap2(elements, userOptions) {
         finishActivation();
       } catch (error) {
         if (preexistingTrap === activeFocusTraps.getActiveTrap(trapStack) && revertState) {
-          preexistingTrap._setSubtreeIsolation(true);
+          var _preexistingTrap$_set2;
+          (_preexistingTrap$_set2 = preexistingTrap._setSubtreeIsolation) === null || _preexistingTrap$_set2 === void 0 || _preexistingTrap$_set2.call(preexistingTrap, true);
         }
         throw error;
       }
@@ -1134,7 +1136,7 @@ var createFocusTrap = function createFocusTrap2(elements, userOptions) {
       if (!state.paused) {
         trap._setSubtreeIsolation(false);
       }
-      state.alreadyInert.clear();
+      state.alreadySilent.clear();
       removeListeners();
       state.active = false;
       state.paused = false;
@@ -1232,16 +1234,33 @@ var createFocusTrap = function createFocusTrap2(elements, userOptions) {
       value: function value(isEnabled) {
         if (config.isolateSubtrees) {
           state.adjacentElements.forEach(function(el) {
+            var _el$getAttribute;
             if (isEnabled) {
-              var isInitiallyInert = el.inert || el.hasAttribute("inert");
-              if (isInitiallyInert) {
-                state.alreadyInert.add(el);
+              switch (config.isolateSubtrees) {
+                case "aria-hidden":
+                  if (el.ariaHidden === "true" || ((_el$getAttribute = el.getAttribute("aria-hidden")) === null || _el$getAttribute === void 0 ? void 0 : _el$getAttribute.toLowerCase()) === "true") {
+                    state.alreadySilent.add(el);
+                  }
+                  el.setAttribute("aria-hidden", "true");
+                  break;
+                default:
+                  if (el.inert || el.hasAttribute("inert")) {
+                    state.alreadySilent.add(el);
+                  }
+                  el.setAttribute("inert", true);
+                  break;
               }
-              el.inert = true;
             } else {
-              if (state.alreadyInert.has(el)) ;
+              if (state.alreadySilent.has(el)) ;
               else {
-                el.inert = false;
+                switch (config.isolateSubtrees) {
+                  case "aria-hidden":
+                    el.removeAttribute("aria-hidden");
+                    break;
+                  default:
+                    el.removeAttribute("inert");
+                    break;
+                }
               }
             }
           });

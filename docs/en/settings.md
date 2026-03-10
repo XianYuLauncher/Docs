@@ -1,5 +1,5 @@
 ---
-description: Detailed settings guide for XianYuLauncher. Customize your launcher experience: themes, language, Java runtime, download sources, memory allocation, and other advanced options.
+description: "Detailed settings guide for XianYuLauncher. Customize your launcher experience: themes, language, Java runtime, download sources, memory allocation, and other advanced options."
 ---
 
 # Launcher Settings
@@ -48,7 +48,7 @@ This section configures the Minecraft runtime environment.
 
 ## Network and Download
 
-**Game Resource Download Source** and **Community Resource Download Source**: Used for the game itself, ModLoader, and community resources like Modrinth and CurseForge. Supported download sources include the official source, [BMCLAPI](https://bmclapi2.bangbang93.com/), [MCIM](https://www.mcimirror.top/), and others. You can also add custom sources via **Custom Source Configuration** by opening the config folder and adding files manually.
+**Game Resource Download Source** and **Community Resource Download Source**: Used for the game itself, ModLoader, and community resources like Modrinth / CurseForge. Supported download sources include the official source, [BMCLAPI](https://bmclapi2.bangbang93.com/), [MCIM](https://www.mcimirror.top/), and others. You can also add custom sources via **Custom Source Configuration** by opening the config folder and adding files manually.
 
 **Speed Test and Auto Source Selection**: Tests and automatically selects the fastest download source.
 

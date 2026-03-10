@@ -41,7 +41,7 @@ export default defineConfig({
           {
             text: '高级功能',
             items: [
-              { text: '模组管理', link: '/mod-management.md' },
+              { text: 'Mod 管理', link: '/mod-management.md' },
               { text: '多人游戏', link: '/multiplayer.md' },
               { text: '启动器设置', link: '/settings.md' }
             ]

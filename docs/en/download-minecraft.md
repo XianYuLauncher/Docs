@@ -1,5 +1,5 @@
 ---
-description: Guide to downloading and installing Minecraft in XianYuLauncher. Learn how to install official releases, snapshots, and mod loaders like Forge and Fabric to set up your ideal gaming environment.
+description: Guide to downloading and installing Minecraft in XianYuLauncher. Learn how to install official releases, snapshots, and Mod loaders like Forge / Fabric to set up your ideal gaming environment.
 ---
 
 # Download and Install Minecraft
@@ -26,11 +26,7 @@ description: Guide to downloading and installing Minecraft in XianYuLauncher. Le
 If you want to install mods, you can choose to install a loader:
 
 1. When downloading the version, select the loader
-2. In the loader options, select the loader you want to install:
-   - Forge
-   - Fabric
-   - Neoforge
-   - Quilt
+2. In the loader options, select the loader to install: Forge / Fabric / Neoforge / Quilt
 3. Select the loader version
 4. Click the "Download" button
 5. Wait for the download and installation to complete

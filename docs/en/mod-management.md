@@ -1,5 +1,5 @@
 ---
-description: Master mod management in XianYuLauncher. Discover how to install loaders (Forge, Fabric), browse and download mods from the built-in store, automatically handle dependencies, and easily enable or disable mods for your game versions.
+description: Master Mod management in XianYuLauncher. Discover how to install loaders (Forge / Fabric), find and download Mods from the built-in store, automatically handle dependencies, and easily enable or disable Mods for your game versions.
 ---
 
 # Mod Management
@@ -18,7 +18,7 @@ To use mods, you need to install a loader first. Please refer to the "Install Lo
    - Category
    - Loader
    - Version
-4. Click on a Mod Card to view details
+4. Click on a Mod item to view details
 5. Select the version to install and click the "Download" button
 6. Select the game version to install to
 7. Wait for the download and installation to complete (if you have enabled the "Auto Download Dependencies" feature, it will automatically download dependency mods)

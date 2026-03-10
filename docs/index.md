@@ -25,9 +25,9 @@ features:
   - title: 多版本管理
     details: 支持多个 Minecraft 版本的管理，一键切换和更新游戏版本，轻松管理版本
   - title: 多样加载器支持
-    details: 兼容 Forge、Fabric、Neoforge 等多种加载器，轻松管理和安装 Mod
+    details: 兼容 Forge / Fabric / Neoforge 等多种加载器，轻松管理和安装 Mod
   - title: 丰富社区资源
-    details: 支持 Mod、光影、资源包、整合包等组件的下载，满足多样化需求
+    details: 支持 Mod、光影、资源包、整合包等模组的下载，满足多样化需求
   - title: 便捷安装方式
     details: 支持一键拖放安装，简化组件的安装流程
   - title: 稳定联机支持
