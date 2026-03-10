@@ -10,7 +10,7 @@ To use mods, you need to install a loader first. Please refer to the "Install Lo
 
 ## Browse and Download Mods
 
-### Download via Mod Store
+### Download via Mod
 
 1. On the launcher's Resource Download Page, click the "Mod" button in the top navigation bar
 2. Browse available mods in the Mod page
@@ -26,7 +26,7 @@ To use mods, you need to install a loader first. Please refer to the "Install Lo
 ### Manual Install Mods
 
 1. Download mod files (.jar format) from third-party websites
-2. On the launcher's Version Management Page, drag and drop the mod file into the launcher window and release it
+2. On the launcher's version management page, drag and drop the mod file into the launcher window and release
 3. The mod will automatically appear in the mod list
 
 ## Manage Installed Mods

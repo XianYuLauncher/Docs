@@ -11,8 +11,8 @@ description: Frequently Asked Questions (FAQ) for XianYuLauncher. Find troublesh
 **Problem**: The launcher doesn't respond when double-clicking the shortcut.
 
 **Solutions**:
-- Check if your system meets the minimum requirements (Windows 10/11 X64)
-- Check if .NET 7.0 Runtime and WinAppSDK 1.4 are installed
+- Check if your system meets the minimum requirements (Windows 10/11 X64/X86/ARM64)
+- Check if .NET 10.0 Runtime and WinAppSDK 1.8 are installed
 - Check the permissions of the launcher installation directory
 - Reinstall the launcher or join our QQ group: 1002593659 and contact @咸鱼 for feedback
 

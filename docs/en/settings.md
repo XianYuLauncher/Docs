@@ -17,15 +17,15 @@ description: Detailed settings guide for XianYuLauncher. Customize your launcher
 1. In the settings interface, click the "Personalization" option
 2. In the personalization settings, you can:
    - Switch between dark/light themes
-   - Switch between Mica/MicaAlt/Acrylic themes
+   - Switch between Mica/MicaAlt/Acrylic/custom background themes
 
 ### Language Settings
 
 1. In the settings interface, click the "Personalization" option
 2. In the language settings, select the language you want to use
 3. Supported languages include:
-   - English
    - 中文（简体）
+   - English
    - ...
 4. The launcher will automatically switch to the selected language after restart
 
@@ -38,6 +38,7 @@ description: Detailed settings guide for XianYuLauncher. Customize your launcher
 3. Supported download sources include:
    - Official source
    - [BMCLAPI](https://bmclapi2.bangbang93.com/)
+   - [MCIM](https://www.mcimirror.top/)
 
 ### Auto Download Dependency Mods
 
@@ -56,16 +57,15 @@ description: Detailed settings guide for XianYuLauncher. Customize your launcher
 
 ## Advanced Settings
 
-### Developer Options
+### Easter Egg Options
 
 1. In the About section, click the "Version" area 5 times
-2. In the developer options, you can:
-   - Save some useless configurations(
-
+2. In the easter egg options, you can:
+   - idk(
 
 ### Experimental Features
 
-1. Not ready yet, planned for future releases..
+1. Not ready yet, planned for the future..
 
 ## Next Steps
 
