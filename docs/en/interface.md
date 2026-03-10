@@ -4,7 +4,7 @@ description: Comprehensive overview of the XianYuLauncher interface. Explore the
 
 # Launcher Interface Introduction
 
-XianYuLauncher is built on WinUI 3 with a clean, modern interface. The left sidebar provides navigation; click different icons to switch between features. The main content area is on the right.
+XianYuLauncher is built on WinUI 3 with a clean, modern interface.
 
 ![XianYuLauncher Interface Overview](/img/ReadmeHero_en.png)
 
@@ -12,7 +12,7 @@ XianYuLauncher is built on WinUI 3 with a clean, modern interface. The left side
 
 **Launch**: Select a game version, configure Mods, and click "Launch Game" to start Minecraft.
 
-**Download**: Download the game, Mods, resource packs, shaders, modpacks, and more. Supports Forge / Fabric / Neoforge / Quilt loaders.
+**Download**: Download the versions, Mods, resource packs, shaders, modpacks, and more. Supports Forge / Fabric / Neoforge / Quilt loaders.
 
 **Version List**: View and manage installed versions. Supports search, filter, and modpack import/export.
 
