@@ -23,6 +23,12 @@ To use mods, you need to install a loader first. Please refer to the "Install Lo
 6. Select the game version to install to
 7. Wait for the download and installation to complete (if you have enabled the "Auto Download Dependencies" feature, it will automatically download dependency mods)
 
+<OpenInLauncherCard
+  href="xianyulauncher://open?page=resource-download&tab=mod"
+  title="Open Mod Download in Launcher"
+  description="Click to jump to Launcher Resource Download → Mod"
+/>
+
 ### Manual Install Mods
 
 1. Download mod files (.jar format) from third-party websites

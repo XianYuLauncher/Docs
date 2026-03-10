@@ -20,6 +20,12 @@ description: XianYuLauncher Mod 管理指南。学习如何安装 Forge / Fabric
 6. 选择要安装到的游戏版本
 7. 等待下载和安装完成（如已开启「自动下载前置」功能，则会自动下载前置 Mod）
 
+<OpenInLauncherCard
+  href="xianyulauncher://open?page=resource-download&tab=mod"
+  title="在启动器中打开 Mod 下载页"
+  description="点击跳转至启动器资源下载 → Mod"
+/>
+
 ### 手动安装 Mod
 
 1. 从第三方网站下载 Mod 文件（.jar 格式）
