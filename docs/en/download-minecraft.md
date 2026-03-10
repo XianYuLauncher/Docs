@@ -15,6 +15,12 @@ description: Guide to downloading and installing Minecraft in XianYuLauncher. Le
 4. After selecting the version, click the "Download" button on the Minecraft download page
 5. Wait for the download to complete
 
+<OpenInLauncherCard
+  href="xianyulauncher://open?page=resource-download"
+  title="Download Minecraft in Launcher"
+  description="Click to jump to the launcher resource download page"
+/>
+
 ## Install Loader (Optional)
 
 If you want to install mods, you can choose to install a loader:
