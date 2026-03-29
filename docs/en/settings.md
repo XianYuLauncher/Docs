@@ -4,7 +4,7 @@ description: "Detailed settings guide for XianYuLauncher. Customize your launche
 
 # Launcher Settings
 
-On the launcher main interface, click the "Settings" icon at the bottom of the sidebar to enter. The settings page is organized into sections by function, covering game runtime, appearance, downloads, AI analysis, and more.
+On the launcher main interface, click the "Settings" icon at the bottom of the sidebar to enter. The settings page is organized into sections by function, covering game runtime, appearance, downloads, Launcher AI, and more.
 
 ## Game
 
@@ -66,14 +66,14 @@ This section configures the Minecraft runtime environment.
   description="Click to jump to Launcher Settings → Network"
 />
 
-## AI Analysis
+## Launcher AI
 
-**AI Crash Analysis**: When enabled, third-party AI services can be used to analyze crash logs. Requires self-configuration of API endpoint and key.
+**Launcher AI**: When enabled, you can use third-party AI services to analyze crash logs, install Mods, launch games, and more. Requires self-configuration of API endpoint and key.
 
 <OpenInLauncherCard
-  href="xianyulauncher://open?page=settings&section=ai-analysis"
-  title="Open in Launcher: AI Analysis"
-  description="Click to jump to Launcher Settings → AI Analysis"
+  href="xianyulauncher://open?page=settings&section=launcher-ai"
+  title="Open in Launcher: Launcher AI"
+  description="Click to jump to Launcher Settings → Launcher AI"
 />
 
 ## About
